@@ -1,4 +1,4 @@
-const notFound = (req, res) => {
+const notFound = (req, res, next) => {
   res.json({ message: "Route not found" });
 };
 

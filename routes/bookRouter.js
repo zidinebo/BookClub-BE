@@ -10,14 +10,14 @@ const {
 
 const router = express.Router();
 
-router.get("/", getAllBook);
+router.get("/api/book/", getAllBook);
 
-router.get("/:id", eachBook);
+router.get("/api/book/:id", eachBook);
 
-router.post("/create", createBook);
+router.post("/api/book/create", createBook);
 
-router.put("/:id", editBook);
+router.put("/api/book/:id", editBook);
 
-router.delete("/:id", deleteBook);
+router.delete("/api/book/:id", deleteBook);
 
 module.exports = router;
