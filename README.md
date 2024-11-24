@@ -207,4 +207,4 @@ https://github.com/zidinebo/BookClub-BE
 
 ## DEPLOYED API LINK
 
-https://bookclub-be.onrender.com
+https://bookclub-be.onrender.com/api/book
